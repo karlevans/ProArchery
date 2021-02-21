@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+    
+    
+    <EditText android:layout_height="wrap_content" android:id="@+id/name_scores" android:layout_width="300dip">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:id="@+id/submit_score_text"
+              android:layout_width="300dip"
+              android:layout_height="wrap_content"
+              android:textColor="#FFF"
+              android:layout_below="@id/name_scores"
+              android:singleLine="false"
+              />
+    <TextView android:id="@+id/taglabel"  android:layout_below="@id/submit_score_text" android:layout_height="wrap_content" android:text="@string/tag" android:layout_width="100dip"></TextView>          
+    <TextView android:id="@+id/submit_score_tag"
+              android:layout_width="300dip"
+              android:layout_height="100dip"
+              android:textColor="#FFF"
+              android:layout_below="@id/submit_score_text"
+              android:layout_toRightOf="@id/taglabel"              
+              ></TextView>
+    <TextView android:id="@+id/tag_note"
+              android:layout_width="300dip"
+              android:layout_height="40dip"
+              android:textColor="#FFF"
+              android:layout_below="@id/taglabel"
+                          
+              ></TextView>
+    <Button android:text="Cancel" android:id="@+id/cancel_scores" android:layout_width="100dip"
+               android:layout_height="50dip" android:layout_below="@id/tag_note"></Button>
+    <Button android:text="Submit" android:id="@+id/send_scores" android:layout_width="100dip"
+               android:layout_height="50dip" android:layout_below="@id/tag_note" android:layout_toRightOf="@id/cancel_scores"></Button>
+    
+</RelativeLayout>

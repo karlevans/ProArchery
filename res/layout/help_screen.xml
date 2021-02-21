@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+           
+    <TextView android:id="@+id/archery_help"
+              android:layout_width="300dip"
+              android:layout_height="wrap_content"
+              android:textColor="#FFF"              
+              android:singleLine="false" 
+              android:maxHeight="100dip"
+              android:maxLines="5"  
+              android:scrollbars="vertical"           
+              />
+    <Button android:text="Close" android:id="@+id/close_help" android:layout_width="100dip"
+               android:layout_height="50dip" android:layout_below="@id/archery_help"></Button>
+    
+</RelativeLayout>

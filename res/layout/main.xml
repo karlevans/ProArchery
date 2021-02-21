@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#003300"
+    >
+    
+    <ImageView 
+   android:id="@+id/title_image"
+   android:src="@drawable/proarchery"
+   android:layout_centerHorizontal="true"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   />
+    <Button android:text="New Game" android:id="@+id/new_game" android:layout_below="@id/title_image" android:layout_centerHorizontal="true" android:layout_marginTop="10dip" android:layout_width="200dip" android:layout_height="wrap_content"></Button>
+    <Button android:text="Help" android:id="@+id/help_game" android:layout_below="@id/new_game" android:layout_centerHorizontal="true" android:layout_marginTop="20dip" android:layout_width="200dip" android:layout_height="wrap_content"></Button>                      
+    <Button android:text="Exit Game" android:id="@+id/exit_game" android:layout_below="@id/help_game" android:layout_centerHorizontal="true" android:layout_marginTop="16dip" android:layout_width="200dip" android:layout_height="wrap_content"></Button>
+   
+   <ImageView 
+   android:id="@+id/first_class_image"
+   android:src="@drawable/first"
+   
+   android:layout_width="35dip"
+   android:layout_height="35dip"
+   android:layout_below="@id/exit_game"
+   android:layout_marginTop="8dip"
+   
+   />
+    <TextView 
+		android:id="@+id/first_value"
+		android:layout_below="@id/exit_game"
+		android:layout_toRightOf="@id/first_class_image"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="20sp"	
+		android:layout_width="100dip"
+		android:layout_height="30dip"
+		android:layout_marginTop="8dip"
+		android:textColor="#FFFFFF">
+	</TextView> 
+   <ImageView 
+   android:id="@+id/second_class_image"
+   android:src="@drawable/second"
+   android:layout_centerHorizontal="true"
+   android:layout_width="35dip"
+   android:layout_height="35dip"
+   android:layout_below="@id/exit_game"
+   android:layout_toRightOf="@id/first_value"
+   android:layout_marginTop="8dip"
+   />
+   <TextView 
+		android:id="@+id/second_value"
+		android:layout_below="@id/exit_game"
+		android:layout_toRightOf="@id/second_class_image"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="20sp"	
+		android:layout_width="100dip"
+		android:layout_height="30dip"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="8dip"
+		android:textColor="#FFFFFF">
+	</TextView> 
+   <ImageView 
+   android:id="@+id/third_class_image"
+   android:src="@drawable/third"
+   android:layout_centerHorizontal="true"
+   android:layout_width="35dip"
+   android:layout_height="35dip"
+   android:layout_below="@id/exit_game"
+   android:layout_toRightOf="@id/second_value"
+   android:layout_marginTop="8dip"
+   />
+  
+	
+	<TextView 
+		android:id="@+id/third_value"
+		android:layout_below="@id/exit_game"
+		android:layout_toRightOf="@id/third_class_image"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="20sp"	
+		android:layout_width="100dip"
+		android:layout_height="30dip"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="8dip"
+		android:textColor="#FFFFFF">
+	</TextView> 
+	
+</RelativeLayout>
+

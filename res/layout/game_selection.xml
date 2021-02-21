@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#003300"
+    >
+    
+    <TextView
+    	android:id="@+id/spinnertext"
+        android:layout_width="130dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/planet_prompt"
+        android:textSize="15sp"
+    />
+    
+     <Spinner 
+        android:id="@+id/spinner"
+        android:layout_toRightOf="@id/spinnertext"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:prompt="@string/planet_prompt"
+        android:layout_centerHorizontal="true"  
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+    />
+    <TextView
+    	android:id="@+id/round_info"
+        android:layout_width="280dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"     
+        android:layout_below="@id/spinner"
+        android:layout_centerInParent="true"  
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:background="#003300"
+       
+    />
+   <Button android:text="Play" android:id="@+id/play_round" 
+   		android:layout_below="@id/round_info" 
+   		android:layout_centerHorizontal="true" 
+   		android:layout_marginTop="16dip" 
+   		android:layout_width="100dip" 
+   		android:layout_height="wrap_content">
+   	</Button>
+   	<LinearLayout android:layout_width="wrap_content"
+                  android:id="@+id/ad_layout"
+                  android:layout_height="wrap_content"
+                  android:gravity="bottom"                  
+                  android:layout_alignParentBottom="true"
+                  android:layout_alignBottom="@+id/home_layout"
+                  android:layout_alignRight="@+id/home_layout"
+                  >
+        <com.google.ads.AdView
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+  	android:id="@+id/adView"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    ads:adSize="BANNER"
+    ads:adUnitId="myadunitid"
+    android:gravity = "bottom" 
+    
+   
+/>
+</LinearLayout>
+</RelativeLayout>

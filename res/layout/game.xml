@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.proarchery">
+   
+    <com.proarchery.GameView
+      android:id="@+id/archery"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="horizontal"/>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        >
+        
+      <TextView android:text="@string/current_score"
+		android:id="@+id/score"		
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="15sp"	
+		android:layout_alignParentTop="true"	
+		android:layout_width="100dip"
+		android:layout_height="20dip"
+		android:textColor="#000000">
+	</TextView> 
+	<TextView 
+		android:id="@+id/actual_score"
+		android:layout_toRightOf="@id/score"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="15sp"	
+		android:layout_width="100dip"
+		android:layout_height="20dip"
+		android:textColor="#000000">
+	</TextView> 
+	 <TextView android:text="@string/ends"
+		android:id="@+id/ends"
+		android:layout_toRightOf="@id/actual_score"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="15sp"			
+		android:layout_width="100dip"
+		android:layout_height="20dip"
+		android:textColor="#000000">
+	</TextView> 
+	<TextView 
+		android:id="@+id/game_ends"		
+		android:layout_toRightOf="@id/ends"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="15sp"	
+		android:layout_width="100dip"
+		android:layout_height="20dip"
+		android:textColor="#000000">
+	</TextView> 
+	
+	<TextView android:text="@string/classification"
+		android:id="@+id/classification"
+		android:layout_below="@id/game_ends"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="15sp"			
+		android:layout_width="100dip"
+		android:layout_height="20dip"
+		android:textColor="#000000">
+	</TextView> 
+	<TextView 
+		android:id="@+id/archers_class"
+		android:layout_below="@id/game_ends"	
+		android:layout_toRightOf="@id/classification"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="15sp"	
+		android:layout_width="100dip"
+		android:layout_height="20dip"
+		android:textColor="#000000">
+	</TextView> 
+	<TextView android:text="@string/windspeed"
+		android:id="@+id/windspeed"
+		android:layout_below="@id/game_ends"
+		android:layout_toRightOf="@id/archers_class"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="15sp"			
+		android:layout_width="100dip"
+		android:layout_height="20dip"
+		android:textColor="#000000">
+	</TextView> 
+	<TextView 
+		android:id="@+id/windspeed_value"
+		android:layout_below="@id/game_ends"	
+		android:layout_toRightOf="@id/windspeed"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="15sp"	
+		android:layout_width="100dip"
+		android:layout_height="20dip"
+		android:textColor="#000000">
+	</TextView> 
+	<TextView android:text="@string/distance"
+		android:id="@+id/distance"
+		android:layout_below="@id/classification"		
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="15sp"			
+		android:layout_width="100dip"
+		android:layout_height="20dip"
+		android:textColor="#000000">
+	</TextView> 
+	<TextView 
+		android:id="@+id/distance_value"
+		android:layout_below="@id/classification"	
+		android:layout_toRightOf="@id/distance"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="15sp"	
+		android:layout_width="100dip"
+		android:layout_height="20dip"
+		android:textColor="#000000">
+	</TextView> 
+   
+   
+   <LinearLayout android:layout_width="wrap_content"
+                  android:id="@+id/ad_layout"
+                  android:layout_height="wrap_content"
+                  android:gravity="bottom"
+                  android:layout_gravity="right"
+                  android:layout_alignParentBottom="true"
+                  android:layout_alignBottom="@+id/home_layout"
+                  android:layout_alignRight="@+id/home_layout"
+                  android:layout_alignParentRight="true">
+        <com.google.ads.AdView
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+  	android:id="@+id/adView"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    ads:adSize="BANNER"
+    ads:adUnitId="myadunitid"
+    android:gravity = "bottom" 
+/>
+    </LinearLayout>
+   
+    </RelativeLayout>
+ 
+</FrameLayout>
+ 
+                         

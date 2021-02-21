@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, IndoorArchery!</string>
+    <string name="app_name">Pro Archery NA</string>
+    <string name="shoot_btn">Shoot</string>
+    <string name="current_score">SCORE</string>
+    <string name="ends">END</string>
+    <string name="classification">CLASS</string>
+    <string name="windspeed">WIND SPEED</string>
+     <string name="planet_prompt">Choose Round</string>
+    <string name="tag">Unique Tag</string>
+    <string name="distance">DISTANCE</string>
+    <string-array name="planets_array">
+        <item>Hereford</item>
+        <item>Bristol</item>
+        <item>Long National</item>
+        <item>National</item>
+        <item>Albion</item>
+        <item>Windsor</item>
+        <item>Western</item>
+        <item>Short Western</item>
+        <item>Long Western</item>
+        <item>American</item>
+        <item>Fita 70</item>
+        <item>Glade League</item>
+    </string-array>
+    <string name="helptext">To aim tilt your device at a 30 degree angle. Pull the string on the right hand side of the game area to shoot. There are many archery rounds to choose from. All Archery rounds are made up of what is known as an "END", which is six arrows. Each round has several ENDS. Most rounds will have two or sometimes three distance changes in each round. Imperial rounds use five zone scoring, which is 9, 7, 5, 3 and 1. Metric rounds use ten zone scoring, which is 10, 9, 8, 7, 6, 5, 4, 3, 2 and 1. You will be able to gain classification from Third, Second and First classifications. Wind speed will affect your score so you may need to aim off. At the end of each round you will be able to submit your score to the score board, which can be viewed at http://www.proarcheryscores.evansdev.co.uk</string>
+        
+    <string name="hereford_info">The Hereford round is a lot of fun, consisting of 36 arrows at 80, 60 and 50 yards. You can gain Third, Second and First class in this round.</string>
+    <string name="bristol_info">The Bristol round consists of 36 arrows at 80, 60 and 50 yards. You can gain First, Second and First class in this round.</string>
+    <string name="longnational_info">Long National will give you 48 arrows at 80 yards, and 24 arrows at sixty yards. You can gain first, Second or Third class in this round.</string>
+    <string name="national_info">In the National round you will have to shoot 48 arrows at sixty yards and 24 arrows at fifty yards. Only Second and Third class can be gained in this round.</string>
+    <string name="albion_info">Lots of fun to be had with the Albion round. You will shoot 36 arrows at 80, 60 and 50 yards. A First, Second and Third class can be gained in this round.</string>
+    <string name="windsor_info">Shooting the Windsor round, you will have to shoot 36 arrows at 80, 60 and 40 yards. You will only be able to gain a Third or Second class score in this round.</string>
+    <string name="western_info">The Western round, sorry no gun shooting here, you will be required to shoot 48 arrows at 60 and 50 yards. You can only gain a Second or Third class in this round.</string>
+    <string name="shortwestern_info">Short Western, similar to the western but at shorter distance. You will be required to shoot 48 arrows and 50 and 40 yards. Only a Third class can be gained in this round.</string>
+    <string name="longwestern_info">The Long Western and no thats not a shotgun. You will be shooting 48 arrows at both 80 and 60 yards. First, Second and Third class can be gained in this round.</string>
+    <string name="american_info">In the American round, you will be required to shoot 30 arrows at 60, 50 and also 40 yards. Only Second and Third class can be gained in this round.</string>
+    <string name="fita70_info">The Fita 70 round requires 72 arrows to be shot over 12 ends at a distance of 70 metres.</string>
+    <string name="gladeleague_info">The Glade league is 72 arrows over 12 ends and is shot at 70 metres and is the 70m Internet Archery League.</string>  
+    
+</resources>
